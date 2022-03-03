@@ -1,0 +1,12 @@
+css-fontface
+iconmoon设计好，下载解压后，需要导入
+fonts文件夹（相当于字体图标库）和 
+style.css文件（里面放的是图片的属性，默认颜色可以删除）
+html在使用时引入link 放上路径
+<link rel="stylesheet" href="style.css">
+<style>
+    .icon-publish {
+        font-size: 96px;
+        color: red;
+    }
+</style>

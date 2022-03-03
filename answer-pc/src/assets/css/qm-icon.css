@@ -1,0 +1,435 @@
+@font-face {
+    font-family: 'qingmeng-icon';
+    src:  url('../fonts/qingmeng-icon.eot?l9n0g7');
+    src:  url('../fonts/qingmeng-icon.eot?l9n0g7#iefix') format('embedded-opentype'),
+    url('../fonts/qingmeng-icon.ttf?l9n0g7') format('truetype'),
+    url('../fonts/qingmeng-icon.woff?l9n0g7') format('woff'),
+    url('../fonts/qingmeng-icon.svg?l9n0g7#qingmeng-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  .qingmeng-icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'qingmeng-icon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-logo-icon:before {
+    content: "\e966";
+    color: #1966d2;
+  }
+  .icon-app:before {
+    content: "\e90a";
+    color: #916fdf;
+  }
+  .icon-send-white:before {
+    content: "\e90b";
+    color: #fff;
+  }
+  .icon-similar-project-blue:before {
+    content: "\e90c";
+    color: #1967d2;
+  }
+  .icon-send-blue:before {
+    content: "\e90d";
+    color: #1967d2;
+  }
+  .icon-regist-time-blue:before {
+    content: "\e90e";
+    color: #1967d2;
+  }
+  .icon-PC:before {
+    content: "\e90f";
+    color: #f24f77;
+  }
+  .icon-others-yellow:before {
+    content: "\e910";
+    color: #ffc700;
+  }
+  .icon-mini-program-line-green:before {
+    content: "\e911";
+    color: #50cd89;
+  }
+  .icon-employer-info-blue:before {
+    content: "\e912";
+    color: #1967d2;
+  }
+  .icon-location-blue:before {
+    content: "\e913";
+    color: #296ac8;
+  }
+  .icon-location-gray:before {
+    content: "\e914";
+    color: #666;
+  }
+  .icon-like-gray:before {
+    content: "\e915";
+    color: #bfbfbf;
+  }
+  .icon-work-experience:before {
+    content: "\e916";
+    color: #1966d2;
+  }
+  .icon-platform-experience-blue:before {
+    content: "\e917";
+    color: #1966d2;
+  }
+  .icon-join-project-blue:before {
+    content: "\e918";
+    color: #1966d2;
+  }
+  .icon-weichat-green:before {
+    content: "\e919";
+    color: #09bb07;
+  }
+  .icon-regist-time-gray:before {
+    content: "\e91a";
+    color: #666;
+  }
+  .icon-platform-experience-gray:before {
+    content: "\e91b";
+    color: #666;
+  }
+  .icon-personal-skills-label-blue:before {
+    content: "\e91c";
+    color: #1967d2;
+  }
+  .icon-location-gray1:before {
+    content: "\e91d";
+    color: #666;
+  }
+  .icon-like-red:before {
+    content: "\e91e";
+    color: #d81e06;
+  }
+  .icon-join-development-blue:before {
+    content: "\e91f";
+    color: #1967d2;
+  }
+  .icon-engineer-blue:before {
+    content: "\e920";
+    color: #1967d2;
+  }
+  .icon-earn-commission-blue:before {
+    content: "\e921";
+    color: #1967d2;
+  }
+  .icon-developer-info-blue:before {
+    content: "\e922";
+    color: #1967d2;
+  }
+  .icon-contact-blue:before {
+    content: "\e923";
+    color: #1967d2;
+  }
+  .icon-commission-line-gray:before {
+    content: "\e924";
+    color: #666;
+  }
+  .icon-commission-blue:before {
+    content: "\e925";
+    color: #1967d2;
+  }
+  .icon-about-developer-gray:before {
+    content: "\e926";
+    color: #666;
+  }
+  .icon-about-developer-blue:before {
+    content: "\e927";
+    color: #1966d2;
+  }
+  .icon-resume-gray:before {
+    content: "\e928";
+    color: #666;
+  }
+  .icon-resume-blue:before {
+    content: "\e929";
+    color: #1966d2;
+  }
+  .icon-close-gray:before {
+    content: "\e92a";
+    color: #666;
+  }
+  .icon-abstract-line-gray:before {
+    content: "\e92b";
+    color: #666;
+  }
+  .icon-prompt-filled-red:before {
+    content: "\e92c";
+    color: #d81e06;
+  }
+  .icon-authentication-filled-green:before {
+    content: "\e92d";
+    color: #36ab60;
+  }
+  .icon-abstract-line-blue:before {
+    content: "\e92e";
+    color: #1966d2;
+  }
+  .icon-search-blue:before {
+    content: "\e92f";
+    color: #296ac8;
+  }
+  .icon-user-info-line-gray:before {
+    content: "\e930";
+    color: #666;
+  }
+  .icon-user-info-line-blue:before {
+    content: "\e931";
+    color: #1966d2;
+  }
+  .icon-take-invite-line-gray:before {
+    content: "\e932";
+    color: #666;
+  }
+  .icon-take-invite-line-blue:before {
+    content: "\e933";
+    color: #1966d2;
+  }
+  .icon-system-message-line-blue:before {
+    content: "\e934";
+    color: #1967d2;
+  }
+  .icon-system-info-line-gray:before {
+    content: "\e935";
+    color: #666;
+  }
+  .icon-system-info-line-blue:before {
+    content: "\e936";
+    color: #1966d2;
+  }
+  .icon-mark-read-line-gray:before {
+    content: "\e937";
+    color: #666;
+  }
+  .icon-mark-read-line-blue:before {
+    content: "\e938";
+    color: #1966d2;
+  }
+  .icon-authentication-line-white:before {
+    content: "\e939";
+    color: #fff;
+  }
+  .icon-message-line-gray:before {
+    content: "\e93a";
+    color: #666;
+  }
+  .icon-publish-task-line-gray:before {
+    content: "\e93b";
+    color: #4c4c4c;
+  }
+  .icon-publish-task-line-blue:before {
+    content: "\e93c";
+    color: #1966d2;
+  }
+  .icon-my-projects-line-gray:before {
+    content: "\e93d";
+    color: #4c4c4c;
+  }
+  .icon-my-projects-line-blue:before {
+    content: "\e93e";
+    color: #1966d2;
+  }
+  .icon-my-messages-line-gray:before {
+    content: "\e93f";
+    color: #666;
+  }
+  .icon-my-messages-line-blue:before {
+    content: "\e940";
+    color: #1966d2;
+  }
+  .icon-money-account-line-gray:before {
+    content: "\e941";
+    color: #4c4c4c;
+  }
+  .icon-money-account-line-blue:before {
+    content: "\e942";
+    color: #1966d2;
+  }
+  .icon-infor-setting-line-gray:before {
+    content: "\e943";
+    color: #4c4c4c;
+  }
+  .icon-infor-setting-line-blue:before {
+    content: "\e944";
+    color: #1966d2;
+  }
+  .icon-authentication-line-gray:before {
+    content: "\e945";
+    color: #4c4c4c;
+  }
+  .icon-work-content-filled-blue:before {
+    content: "\e900";
+    color: #1966d2;
+  }
+  .icon-project-budget-filled-blue:before {
+    content: "\e901";
+    color: #1966d2;
+  }
+  .icon-project-duration-filled-blue:before {
+    content: "\e902";
+    color: #1966d2;
+  }
+  .icon-project-type-filled-blue:before {
+    content: "\e903";
+    color: #1966d2;
+  }
+  .icon-message-line-gray1:before {
+    content: "\e904";
+    color: #666;
+  }
+  .icon-money-line-gray:before {
+    content: "\e905";
+  }
+  .icon-project-nums-line-gray:before {
+    content: "\e906";
+  }
+  .icon-mini-program-line-gray:before {
+    content: "\e907";
+  }
+  .icon-job-type-line-gray:before {
+    content: "\e908";
+  }
+  .icon-employer-line-gray:before {
+    content: "\e909";
+  }
+  .icon-project-settings-line-blue:before {
+    content: "\e946";
+    color: #296ac8;
+  }
+  .icon-work-type-line-blue:before {
+    content: "\e947";
+    color: #1966d2;
+  }
+  .icon-work-content-line-blue:before {
+    content: "\e948";
+    color: #1966d2;
+  }
+  .icon-timeline-line-blue:before {
+    content: "\e949";
+    color: #1966d2;
+  }
+  .icon-related-documents-line-gray:before {
+    content: "\e94a";
+    color: #999;
+  }
+  .icon-related-documents-line-blue:before {
+    content: "\e94b";
+    color: #1967d2;
+  }
+  .icon-project-settings-line-gray:before {
+    content: "\e94c";
+    color: #828184;
+  }
+  .icon-project-intro-line-gray:before {
+    content: "\e94d";
+    color: #999;
+  }
+  .icon-project-intro-line-blue:before {
+    content: "\e94e";
+    color: #1966d2;
+  }
+  .icon-project-info-line-blue:before {
+    content: "\e94f";
+    color: #1966d2;
+  }
+  .icon-project-desc-line-blue:before {
+    content: "\e950";
+    color: #1966d2;
+  }
+  .icon-project-budget-line-gray:before {
+    content: "\e951";
+    color: #999;
+  }
+  .icon-kanban-line-gray:before {
+    content: "\e952";
+    color: #999;
+  }
+  .icon-kanban-line-blue:before {
+    content: "\e953";
+    color: #1966d2;
+  }
+  .icon-caution-line-blue:before {
+    content: "\e954";
+    color: #1966d2;
+  }
+  .icon-related-documents-line-blue1:before {
+    content: "\e955";
+    color: #1966d2;
+  }
+  .icon-confirm-info-line-green:before {
+    content: "\e956";
+    color: #0f912e;
+  }
+  .icon-confirm-info-line-gray:before {
+    content: "\e957";
+    color: #999;
+  }
+  .icon-view-filled-blue:before {
+    content: "\e958";
+    color: #1966d2;
+  }
+  .icon-recruit-line-blue:before {
+    content: "\e959";
+    color: #1966d2;
+  }
+  .icon-project-type-line-blue:before {
+    content: "\e95a";
+    color: #1966d2;
+  }
+  .icon-project-name-line-blue:before {
+    content: "\e95b";
+    color: #1966d2;
+  }
+  .icon-project-duration-line-blue:before {
+    content: "\e95c";
+    color: #1966d2;
+  }
+  .icon-project-budget-line-gray1:before {
+    content: "\e95d";
+    color: #999;
+  }
+  .icon-project-budget-line-blue:before {
+    content: "\e95e";
+    color: #1966d2;
+  }
+  .icon-money-trusteeship-blue:before {
+    content: "\e95f";
+    color: #1967d2;
+  }
+  .icon-help-line-gray:before {
+    content: "\e960";
+    color: #666;
+  }
+  .icon-fill-content-line-blue:before {
+    content: "\e961";
+    color: #1966d2;
+  }
+  .icon-evaluate-line-blue:before {
+    content: "\e962";
+    color: #1967d2;
+  }
+  .icon-edit-filled-blue:before {
+    content: "\e963";
+    color: #1966d2;
+  }
+  .icon-correct-line-blue:before {
+    content: "\e964";
+    color: #1966d2;
+  }
+  .icon-check-project-line-blue:before {
+    content: "\e965";
+    color: #1967d2;
+  }
+  
